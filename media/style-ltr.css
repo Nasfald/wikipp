@@ -1,0 +1,81 @@
+
+*{
+	padding:0;
+	margin:0;
+}
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, 
+fieldset, address, pre { margin:0.75em 0;}
+
+li, dd { 
+	margin-left:2em;
+}
+
+blockquote, pre {
+        margin-left:20px;
+        margin-right:20px;
+        padding-left:5px;
+        border-left: #999999 solid thin;
+}
+
+#sidecontent {
+	padding:10px 10px 20px 10px;
+	margin:0px 0px 10px 0px;
+	float:right;
+}
+
+#maincontent {
+	padding:0px 5px 5px 0px;
+	float:left;
+}
+
+#copyrightdesign {
+	padding:5px 20px 5px 0px;
+	float:left;
+}
+
+#footercontact {
+	padding:5px 0px 5px 0px;
+	float:right;
+}
+
+.published{
+        text-align:left;
+}
+
+.nextpage{
+        text-align:right;
+}
+
+
+#slogan {
+	padding:10px 20px 0px 0px;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+#nav li {
+	float: right;
+}
+
+#title {
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+#navall { float:right; }
+
+#nav {
+	text-align: right;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#header{
+	padding:5px 0px 10px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+#langlist {
+	text-align: right;
+}

@@ -1,0 +1,62 @@
+Common subdirectories: discount-2.0.3/Plan9 and discount-2.0.3-side/Plan9
+Common subdirectories: discount-2.0.3/tests and discount-2.0.3-side/tests
+diff -u discount-2.0.3/toc.c discount-2.0.3-side/toc.c
+--- discount-2.0.3/toc.c	2010-11-27 08:44:44.000000000 +0200
++++ discount-2.0.3-side/toc.c	2010-12-31 18:25:17.000000000 +0200
+@@ -21,6 +21,7 @@
+ {
+     Paragraph *tp, *srcp;
+     int last_hnumber = 0;
++    int last_limit = 6;
+     Cstring res;
+     
+     *doc = 0;
+@@ -31,6 +32,26 @@
+     CREATE(res);
+     RESERVE(res, 100);
+ 
++    /*
++     * Find the minimal heading level, useful in cases
++     * when h1 is already in use (like article title and
++     * in markdown only h2, h3 or even higher are used
++     *
++     * So list nesting would be done from min_header
++     */
++    for ( tp = p->code; tp ; tp = tp->next ) {
++	if ( tp->typ == SOURCE ) {
++	    for ( srcp = tp->down; srcp; srcp = srcp->next ) {
++		if ( srcp->typ == HDR && srcp->text ) {
++			if(srcp->hnumber < last_limit + 1)
++				last_limit = srcp->hnumber - 1;
++		}
++	    }
++	}
++    }
++
++    last_hnumber = last_limit;
++
+     for ( tp = p->code; tp ; tp = tp->next ) {
+ 	if ( tp->typ == SOURCE ) {
+ 	    for ( srcp = tp->down; srcp; srcp = srcp->next ) {
+@@ -45,7 +66,7 @@
+ 
+ 		    while ( srcp->hnumber > last_hnumber ) {
+ 			Csprintf(&res, "%*s%s<ul>\n", last_hnumber, "",
+-				    last_hnumber ? "<li>" : "");
++				    ( last_hnumber != last_limit )? "<li>" : "");
+ 			++last_hnumber;
+ 		    }
+ 		    Csprintf(&res, "%*s<li><a href=\"#", srcp->hnumber, "");
+@@ -61,9 +82,9 @@
+         }
+     }
+ 
+-    while ( last_hnumber > 0 ) {
++    while ( last_hnumber > last_limit ) {
+ 	--last_hnumber;
+-	Csprintf(&res, last_hnumber ? "%*s</ul></li>\n" : "%*s</ul>\n", last_hnumber, "");
++	Csprintf(&res, (last_hnumber != last_limit ) ? "%*s</ul></li>\n" : "%*s</ul>\n", last_hnumber, "");
+     }
+ 			/* HACK ALERT! HACK ALERT! HACK ALERT! */
+     *doc = T(res);	/* we know that a T(Cstring) is a character pointer */
+Common subdirectories: discount-2.0.3/tools and discount-2.0.3-side/tools

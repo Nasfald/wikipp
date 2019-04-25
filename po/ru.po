@@ -1,0 +1,307 @@
+# translation of ru.po to Hebrew
+# translation of he.po to
+# translation of wikipp.po to
+# Hebrew Translation.
+# Copyright (C) YEAR Artyom Tonkikh
+# This file is distributed under the same license as the wikipp package.
+#
+# Artyom Tonkikg <artyomtnk@yahoo.com>, 2008.
+# artik <artyomtnk@yahoo.com>, 2008, 2009, 2010, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-01 13:06+0200\n"
+"PO-Revision-Date: 2012-02-01 13:09+0200\n"
+"Last-Translator: Artyom <artyomtnk@yahoo.com>\n"
+"Language-Team: Hebrew <>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: master.cpp:110
+msgid "LANG"
+msgstr "Русский"
+
+#: options.cpp:14
+msgid "Users Only"
+msgstr "Только для пользователей"
+
+#: options.cpp:15
+msgid "Contact e-mail"
+msgstr "Контактный e-mail"
+
+#: options.cpp:16
+msgid "Wiki Title"
+msgstr "Wiki Заголовок"
+
+#: options.cpp:17
+msgid "About Wiki"
+msgstr "О Wiki"
+
+#: options.cpp:18
+msgid "Copyright String"
+msgstr "Строка копирайта"
+
+#: options.cpp:19 users.cpp:45
+msgid "Submit"
+msgstr "Отправить"
+
+#: options.cpp:32
+msgid "Disable creation of new articles by visitors"
+msgstr "Отключить создание новых статей посетителями"
+
+#: options.cpp:110
+msgid "Wiki++ - CppCMS Wiki"
+msgstr "Wiki++ - CppCMS Вики"
+
+#: options.cpp:113
+msgid ""
+"## About\n"
+"\n"
+"Wiki++ is a wiki engine powered by\n"
+"[CppCMS](http://cppcms.sf.net/) web development framework.\n"
+msgstr ""
+"## Обшие сведения\n"
+"\n"
+"Wiki++ - это wiki-движок, основанный на\n"
+"[CppCMS](http://cppcms.sf.net/) фрэймворке веб-разработки.\n"
+
+#: options.cpp:118
+msgid "(C) All Rights Reserved"
+msgstr "(C) Все права защищены"
+
+#: page.cpp:17
+msgid "Title"
+msgstr "Заголовок"
+
+#: page.cpp:18 /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:111
+msgid "Content"
+msgstr "Содержимое"
+
+#: page.cpp:19 /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:115
+msgid "Sidebar"
+msgstr "Панель"
+
+#: page.cpp:20
+msgid "Save"
+msgstr "Сохранить"
+
+#: page.cpp:21
+msgid "Save and Continue"
+msgstr "Сохранить и продолжить"
+
+#: page.cpp:22
+msgid "Preview"
+msgstr "Просмотр"
+
+#: page.cpp:32
+msgid "Disable editing by visitors"
+msgstr "Отключить правку посетителями"
+
+#: page.cpp:33
+msgid "Please Login"
+msgstr "Войдите пожалуйста"
+
+#: users.cpp:17 users.cpp:41
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: users.cpp:18 users.cpp:42
+msgid "Password"
+msgstr "Пароль"
+
+#: users.cpp:19 /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:65
+msgid "Login"
+msgstr "Логин"
+
+#: users.cpp:43
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: users.cpp:44
+msgid "Solve"
+msgstr "Решить"
+
+#: users.cpp:79
+msgid "This user exists"
+msgstr "Такой пользователь существует"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:5
+msgid "Wellcome to WikiPP"
+msgstr "Добро пожаловать в WikiPP"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:9
+msgid " Users Area"
+msgstr "Область пользователей"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:14
+msgid "Navigation"
+msgstr "Навигация"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:16
+msgid "Index"
+msgstr "Список"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:17
+msgid "Changes"
+msgstr "Изменения"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:20
+msgid "Main Page"
+msgstr "Главная страница"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:42
+msgid "LTR"
+msgstr "LTR"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:68
+msgid "Logout "
+msgstr "Выйти "
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:78
+msgid "Main"
+msgstr "Главная"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:90
+msgid "Valid CSS"
+msgstr "Валидация CSS"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:91
+msgid "Valid XHTML 1.0"
+msgstr "Валидация XHTML 1.0"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:96
+msgid ""
+"Template design based on <a href=\"http://ContentedDesigns.com\">Contented "
+"Designs</a>"
+msgstr ""
+"Дизайн шаблонов основан на <a href=\"http://ContentedDesigns.com\"> "
+"Contented Designs</a>"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:99
+msgid "Contact"
+msgstr "Контакты"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:14
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:26
+msgid "Edit"
+msgstr "Правка"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:16
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:31
+msgid "History"
+msgstr "История"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:26
+msgid "New Article"
+msgstr "Новая статья"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:29
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:5
+msgid "Back to page"
+msgstr "Вернуться к странице"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:68
+msgid "Edit this version (rollback)"
+msgstr "Редактировать это версию (откат)"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:73
+msgid "(version {1,num}, from {2,dt=s})"
+msgstr "(версия {1,num}, от {2,dt=s})"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:78
+msgid "Difference \"{1}\" ver. {2} versus ver. {3}"
+msgstr "Отличия \"{1}\" вер. {2} сравн. вер. {3}"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:80
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:82
+msgid "Edit version {1,num}"
+msgstr "Правка версии {1,num}"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:99
+msgid "No such page or version exist"
+msgstr "Такой страницы или версии не существует"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:101
+msgid "No difference between these versions"
+msgstr "Нет различий между этими версиями"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:104
+msgid "Titles"
+msgstr "Заголовки"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:106
+msgid "Version {1}"
+msgstr "Версия {1}"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:3
+msgid "WikiPP :: History"
+msgstr "WikiPP :: История"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:14
+msgid "Version {1,num}, changed at {2,dt=s}, by {3}"
+msgstr "Версия {1,num}, изменена {2,dt=s}, {3}"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:15
+msgid "Show"
+msgstr "Показать"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:16
+msgid "Edit (rollback)"
+msgstr "Правка (откат)"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:17
+#: /home/artik/Projects/cppcms/wikipp/templates/toc.tmpl:33
+msgid "Diff to previous"
+msgstr "Различия с прежним"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:23
+msgid "History is empty"
+msgstr "История пуста"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:25
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/admin.tmpl:3
+msgid "WikiPP :: Login"
+msgstr "WikiPP :: Вход"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/admin.tmpl:11
+msgid "Register as new user"
+msgstr "Зарегистрируйтесь как новый пользователь"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/admin.tmpl:16
+msgid "WikiPP :: Register"
+msgstr "WikiPP :: Регистрация"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/admin.tmpl:38
+msgid "WikiPP :: Edit Options"
+msgstr "WikiPP :: Редактировать опции"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/toc.tmpl:4
+msgid "Index of Articles"
+msgstr "Список статей"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/toc.tmpl:26
+msgid "Recent Changes"
+msgstr "Последние Изменения"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/toc.tmpl:32
+msgid "version {1,num}, at {2,dt=s}, by {3}"
+msgstr "версия {1,num}, от {2,dt=s}, {3}"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/toc.tmpl:38
+msgid "Next Page"
+msgstr "Следующая страница"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/toc.tmpl:40
+msgid "No more changes"
+msgstr "Больше нет изменений"
+

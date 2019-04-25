@@ -1,0 +1,240 @@
+/***************************************************************************
+*                                                                          *
+* contented5 - An open source xhtml/css website template by Contented      *
+* Designs.  You're free to modify it and use it for any purpose without    *
+* cost or obligation. We'd prefer that you leave the link to our website   *
+* in the footer but it's not required.                                     *
+*                                                                          *
+* If you have comments or questions, please contact us at                  *
+* http://www.ContentedDesigns.com. Thanks!                                 *
+*                                                                          *
+* Version: 1.01 (May 17, 2006)                                             *
+***************************************************************************/
+
+#page {
+	color: #222222;
+	background-color:#FFFFFF;
+	font-family: Arial, sans-serif;
+	font-size:83%;
+	margin:20px auto;
+	width:760px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+
+h1 {font-size:167%; border-bottom: #999999 solid thin;}
+
+h2 {font-size:139%;}
+
+h3 {font-size:120%;}
+
+h4 {font-size:100%;}
+
+#title { border:none; }
+
+
+a {
+	color: #CC0000;
+	background-color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #CC0000;
+	background-color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#contact {
+	padding:0px 0px 0px 0px;
+	float:right;
+}
+
+#contact a {
+	color: #CC0000;
+	background-color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#contact a:hover {
+	color: #CC0000;
+	background-color:#FFFFFF;
+	text-decoration:underline;
+}
+
+#header {
+	clear:both;
+	color: #CC0000;
+	background-color:#FFFFFF;
+}
+
+
+#title {
+	color: #CC0000;
+	background-color:#FFFFFF;
+	font-size:200%;
+	font-weight:bold;
+	width:90%;
+}
+
+#slogan {
+	color:#222222;
+	background-color:#FFFFFF;
+	font-size:83%;
+	font-weight:normal;
+	font-style:normal;
+	width:90%;
+}
+
+#navall {width:40%;}
+#nav {
+	line-height:125%;
+	height:3em;
+	list-style: none;
+	text-align: left;
+}
+
+#nav ul {list-style: none; }
+
+#nav li a {
+	display: block;
+	font-size: small;
+	color: #CC0000;
+	background-color:#FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#nav li a:hover { 
+	border-bottom:3px solid #CC0000;
+}
+
+#nav a.selected { 
+	border-bottom:3px solid #CC0000;
+}
+
+
+
+#path {
+	width:760px;
+	clear:both;
+	float:left;
+	font-size:75%;
+	font-weight:normal;
+	margin:4px 0px 5px 0px;
+	border-top:5px solid #222222;
+}
+
+#path a {
+	font-weight:normal;
+}
+
+
+
+#sidecontent a {
+	color: #CC0000;
+	background-color:#FFFFFF;
+}
+
+#sidecontent h2 { margin:0.75em 0.25em 0.25em 0em;}
+
+#sidecontent ul { margin:0.25em 0.25em 0.25em 0.25em;}
+
+#footer {
+	height:40px;
+	color:#222222;
+	background-color:#FFFFFF;
+	border-top:5px solid #222222;
+	font-size:75%;
+	line-height:1.5em;
+	width: 760px;
+	clear:both;
+}
+
+#footer	a {
+	color:#CC0000;
+	background-color:#FFFFFF;
+	text-decoration: none;
+}
+
+#footer	a:hover {
+	color:#CC0000;
+	background-color:#FFFFFF;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+
+
+.published, .nextpage, .rsslink {
+        font-size:80%;
+        font-style:italic;
+        margin-top:-10px;
+        padding-top:0px;
+}
+
+
+
+#comments {
+        border-top: #999999 solid thin;
+} 
+
+#comments dd {
+        margin-left:25px;
+        padding-left:5px;
+        margin-right:25px;
+        padding-right:5px;
+}
+
+#comments textarea {
+	width:100%
+}
+
+#footercontact {
+	color:#CC0000;
+	background-color:#FFFFFF;
+}
+
+#copyrightdesign {
+	color:#222222;
+	background-color:#FFFFFF;
+	width: 580px;
+}
+
+#maincontent {
+	font-size:100%;
+	margin:0px 0px 0px 0px;
+	width:540px;
+        text-align:justify;
+}
+
+
+#sidecontent {
+	font-family:Arial, sans-serif;
+	color: #222222;
+	background-color:#FFFFFF;
+	font-size:75%;
+	width:180px;
+	border: #999999 solid thin;
+}
+
+#copyright {
+	margin-top:15px;
+} 
+
+/*#toc_table {
+	text-padding : 5px 5px 5px 5px;
+}*/
+
+h1.categorytitle {
+	text-align:center;
+	text-decoration:none;
+	border-bottom:none;
+}
+
+tr.d_del{background:red;}
+tr.d_add{background:green;}

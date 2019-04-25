@@ -1,0 +1,305 @@
+# translation of he.po to Hebrew
+# translation of he.po to
+# translation of wikipp.po to
+# Hebrew Translation.
+# Copyright (C) YEAR Artyom Tonkikh
+# This file is distributed under the same license as the wikipp package.
+#
+# Artyom Tonkikg <artyomtnk@yahoo.com>, 2008.
+# artik <artyomtnk@yahoo.com>, 2008, 2009, 2010, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: he\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-01 13:06+0200\n"
+"PO-Revision-Date: 2012-02-01 13:08+0200\n"
+"Last-Translator: Artyom <artyomtnk@yahoo.com>\n"
+"Language-Team: Hebrew <>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: master.cpp:110
+msgid "LANG"
+msgstr "עברית"
+
+#: options.cpp:14
+msgid "Users Only"
+msgstr "משתמשים בלבד"
+
+#: options.cpp:15
+msgid "Contact e-mail"
+msgstr "דוא\"ל ליצירת־קשר"
+
+#: options.cpp:16
+msgid "Wiki Title"
+msgstr "כותרת הויקי"
+
+#: options.cpp:17
+msgid "About Wiki"
+msgstr "אודות ויקי"
+
+#: options.cpp:18
+msgid "Copyright String"
+msgstr "זכויות היוצרים"
+
+#: options.cpp:19 users.cpp:45
+msgid "Submit"
+msgstr "שלח"
+
+#: options.cpp:32
+msgid "Disable creation of new articles by visitors"
+msgstr "בטל יצירת מאמרים חדשים ע\" מבקרים"
+
+#: options.cpp:110
+msgid "Wiki++ - CppCMS Wiki"
+msgstr "ויקי++ - ויקי על CppCMS"
+
+#: options.cpp:113
+msgid ""
+"## About\n"
+"\n"
+"Wiki++ is a wiki engine powered by\n"
+"[CppCMS](http://cppcms.sf.net/) web development framework.\n"
+msgstr ""
+"## אודות\n"
+"\n"
+"ויקי++ זה מנוע ויקי מבוסס על תשתית פיתוח אינטרנט [CppCMS](http://cppcms.sf."
+"net/)\n"
+
+#: options.cpp:118
+msgid "(C) All Rights Reserved"
+msgstr "‏(C) ‏ כל הזכויות שמורות"
+
+#: page.cpp:17
+msgid "Title"
+msgstr "כותרת"
+
+#: page.cpp:18 /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:111
+msgid "Content"
+msgstr "תוכן"
+
+#: page.cpp:19 /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:115
+msgid "Sidebar"
+msgstr "סרגל־צד"
+
+#: page.cpp:20
+msgid "Save"
+msgstr "שמור"
+
+#: page.cpp:21
+msgid "Save and Continue"
+msgstr "שמור והמשך"
+
+#: page.cpp:22
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#: page.cpp:32
+msgid "Disable editing by visitors"
+msgstr "בטל עריכה למבקרים"
+
+#: page.cpp:33
+msgid "Please Login"
+msgstr "אנא התחבר"
+
+#: users.cpp:17 users.cpp:41
+msgid "Username"
+msgstr "שם משתמש"
+
+#: users.cpp:18 users.cpp:42
+msgid "Password"
+msgstr "ססמה"
+
+#: users.cpp:19 /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:65
+msgid "Login"
+msgstr "התחברות"
+
+#: users.cpp:43
+msgid "Confirm"
+msgstr "אמת"
+
+#: users.cpp:44
+msgid "Solve"
+msgstr "פתור"
+
+#: users.cpp:79
+msgid "This user exists"
+msgstr "המשתמש קיים"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:5
+msgid "Wellcome to WikiPP"
+msgstr "ברוכים הבאים ל־ויקי++"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:9
+msgid " Users Area"
+msgstr "אזור משתמשים"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:14
+msgid "Navigation"
+msgstr "ניווט"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:16
+msgid "Index"
+msgstr "אינדקס"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:17
+msgid "Changes"
+msgstr "שינויים"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:20
+msgid "Main Page"
+msgstr "עמוד ראשי"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:42
+msgid "LTR"
+msgstr "RTL"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:68
+msgid "Logout "
+msgstr "יציאה"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:78
+msgid "Main"
+msgstr "ראשי"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:90
+msgid "Valid CSS"
+msgstr "‏css תקני"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:91
+msgid "Valid XHTML 1.0"
+msgstr "‏XHTML 1.0 תקני"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:96
+msgid ""
+"Template design based on <a href=\"http://ContentedDesigns.com\">Contented "
+"Designs</a>"
+msgstr ""
+"התבנית מבוססת על עיצוב <a href=\"http://ContentedDesigns.com\">Contented "
+"Designs</a>"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:99
+msgid "Contact"
+msgstr "צור קשר"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:14
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:26
+msgid "Edit"
+msgstr "עריכה"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:16
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:31
+msgid "History"
+msgstr "היסטוריה"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:26
+msgid "New Article"
+msgstr "מאמר חדש"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:29
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:5
+msgid "Back to page"
+msgstr "חזרה מאמר"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:68
+msgid "Edit this version (rollback)"
+msgstr "ערוך גרסה זו (שחזור)"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:73
+msgid "(version {1,num}, from {2,dt=s})"
+msgstr "(גרסה {1}, ב־{2,dt=s})"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:78
+msgid "Difference \"{1}\" ver. {2} versus ver. {3}"
+msgstr "השוואה של \"{1}\", גרסה {2}, גרסה {3}"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:80
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:82
+msgid "Edit version {1,num}"
+msgstr "ערוך גרסה {1,num}"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:99
+msgid "No such page or version exist"
+msgstr "עמוד או גרסאות כאלה לא קיימים"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:101
+msgid "No difference between these versions"
+msgstr "אין הבדל בין הגרסאות"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:104
+msgid "Titles"
+msgstr "כותרות"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:106
+msgid "Version {1}"
+msgstr "גרסה {1}"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:3
+msgid "WikiPP :: History"
+msgstr "ויקי++ :: היסטוריה"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:14
+msgid "Version {1,num}, changed at {2,dt=s}, by {3}"
+msgstr "גרסה {,num1}, עודכנה ב־{2,dt=s} ע\"י {3}"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:15
+msgid "Show"
+msgstr "הצג"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:16
+msgid "Edit (rollback)"
+msgstr "עריכה (שחזור)"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:17
+#: /home/artik/Projects/cppcms/wikipp/templates/toc.tmpl:33
+msgid "Diff to previous"
+msgstr "השוואה עם גרסה קודמת"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:23
+msgid "History is empty"
+msgstr "היסטוריה ריקה"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/hist.tmpl:25
+msgid "Next page"
+msgstr "עמוד הבא"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/admin.tmpl:3
+msgid "WikiPP :: Login"
+msgstr "ויקי++ :: כניסה"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/admin.tmpl:11
+msgid "Register as new user"
+msgstr "הרשם כמשתמש חדש"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/admin.tmpl:16
+msgid "WikiPP :: Register"
+msgstr "ויקי :: הרשמה"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/admin.tmpl:38
+msgid "WikiPP :: Edit Options"
+msgstr "ויקי :: עריכת הגדרות"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/toc.tmpl:4
+msgid "Index of Articles"
+msgstr "אינדקס מאמרים"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/toc.tmpl:26
+msgid "Recent Changes"
+msgstr "שינויים אחרונים"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/toc.tmpl:32
+msgid "version {1,num}, at {2,dt=s}, by {3}"
+msgstr "גרסה {1}, ב־{2,dt=s}, ע\"י {3}"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/toc.tmpl:38
+msgid "Next Page"
+msgstr "עמוד הבא"
+
+#: /home/artik/Projects/cppcms/wikipp/templates/toc.tmpl:40
+msgid "No more changes"
+msgstr "אין יותר שינויים"
+

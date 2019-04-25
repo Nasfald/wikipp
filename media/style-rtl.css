@@ -1,0 +1,82 @@
+body {direction:rtl}
+
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, 
+fieldset, address, pre { margin-right:0.0em;}
+
+ul, ol, dl { padding-right:2.5em; }
+
+blockquote, pre {
+        margin-left:20px;
+        margin-right:20px;
+        padding-right:5px;
+        border-right: #999999 solid thin;
+}
+
+
+.dp-highlighter { direction:ltr; }
+
+#sidecontent {
+	padding:10px 10px 20px 10px;
+	margin:0px 0px 10px 0px;
+	float:left;
+}
+
+#maincontent {
+	padding:5px 0px 5px 0px;
+	float:right;
+}
+
+#copyrightdesign {
+	padding:5px 0px 5px 0px;
+	float:right;
+}
+
+#footercontact {
+	padding:5px 0px 5px 0px;
+	float:left;
+}
+
+.published {
+        text-align:right;
+}
+
+.nextpage{
+        text-align:left;
+}
+
+
+#slogan {
+	padding:10px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	float:right;
+}
+
+#nav li {
+	float: left;
+	margin-right:1em;
+}
+
+#title {
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	float:right;
+}
+
+#navall { float:left; }
+
+
+#nav {
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#header{
+	padding:5px 0px 10px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+#langlist {
+	text-align: left;
+}
