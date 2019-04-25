@@ -81,9 +81,17 @@ namespace {
 }
 
 
+const int K_markdown_flags =
+0x00000004|		//MKD_NOPANTS
+0x01000000| 	//MKD_DLEXTRA
+0x02000000| 	//MKD_FENCEDCODE
+0x08000000| 	//MKD_GITHUBTAGS
+0x40000000| 	//MKD_LATEX
+0;
+
 std::string mymarkdown(std::string const &s)
 {
-	int flags = mkd::no_pants;
+	int flags = K_markdown_flags;
 	if(s.compare(0,10,"<!--toc-->")==0) {
 		flags |= mkd::toc;
 	}
