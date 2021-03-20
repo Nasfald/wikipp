@@ -40,7 +40,7 @@ msgstr "Titre du Wiki"
 
 #: options.cpp:17
 msgid "About Wiki"
-msgstr "À propose du Wiki"
+msgstr "À propos du Wiki"
 
 #: options.cpp:18
 msgid "Copyright String"
@@ -68,11 +68,11 @@ msgstr ""
 "## À propos\n"
 "\n"
 "Wiki++ est un moteur de wiki gérée par\n"
-"[CppCMS](http://cppcms.sf.net/) framezwork de dévelopement web\n"
+"[CppCMS](http://cppcms.sf.net/) framework de dévelopement web\n"
 
 #: options.cpp:118
 msgid "(C) All Rights Reserved"
-msgstr "(C) Tous droits réservées"
+msgstr "(C) Tous droits réservés"
 
 #: page.cpp:17
 msgid "Title"
@@ -84,7 +84,7 @@ msgstr "Contenu"
 
 #: page.cpp:19 /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:115
 msgid "Sidebar"
-msgstr "Bar latérale"
+msgstr "Barre latérale"
 
 #: page.cpp:20
 msgid "Save"
@@ -179,7 +179,7 @@ msgid ""
 "Template design based on <a href=\"http://ContentedDesigns.com\">Contented "
 "Designs</a>"
 msgstr ""
-"Nodèles des concept artistique basée sur<a href=\"http://ContentedDesigns.com\">Contented "
+"Nodèles des concept artistique basée sur <a href=\"http://ContentedDesigns.com\">Contented "
 "Designs</a>"
 
 #: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:99
