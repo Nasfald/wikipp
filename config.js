@@ -7,6 +7,7 @@
 
 		"languages" : {
 			"en" : "en_US.UTF-8" ,
+			"fr" : "fr_FR.UTF-8" ,
 			"he" : "he_IL.UTF-8" ,
 			"ru" : "ru_RU.UTF-8" ,
 			"pl" : "pl_PL.UTF-8"
@@ -32,7 +33,7 @@
 		"api" : "http",
 		"port" : 8080,
 		// "api" : "fastcgi",
-		// "socket" : "/tmp/wikipp.sock"
+		"socket" : "/tmp/wikipp.sock"
 		// "socket" : "stdin"
 	},
 	"session" : {
@@ -65,7 +66,7 @@
 			"paths" : [ "./build/locale"],
 			"domains" :  [ "wikipp" ]
 		},
-		"locales" : [ "he_IL.UTF-8" , "en_US.UTF-8", "ru_RU.UTF-8", "pl_PL.UTF-8" ]
+	    "locales" : [ "fr_FR.UTF-8", "he_IL.UTF-8" , "en_US.UTF-8", "ru_RU.UTF-8", "pl_PL.UTF-8" ]
 	},
 	"http" : {
 		"script_names" : [ "/wikipp" ]
