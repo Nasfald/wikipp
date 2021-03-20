@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-19 13:06+0200\n"
 "PO-Revision-Date: 2021-03-19 13:08+0200\n"
-"Last-Translator: Nas <nas1138*zaclys.net>\n"
+"Last-Translator: Nas <nas1138@zaclys.net>\n"
 "Language-Team: Français <>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "Contact e-mail"
 
 #: options.cpp:16
 msgid "Wiki Title"
-msgstr "Titre du Wikiכותרת הויקי"
+msgstr "Titre du Wiki"
 
 #: options.cpp:17
 msgid "About Wiki"
@@ -67,7 +67,7 @@ msgid ""
 msgstr ""
 "## À propos\n"
 "\n"
-"Wiki++ est un moteur de wiki gérésée par\n"
+"Wiki++ est un moteur de wiki gérée par\n"
 "[CppCMS](http://cppcms.sf.net/) framezwork de dévelopement web\n"
 
 #: options.cpp:118
@@ -92,7 +92,7 @@ msgstr "Enregistrer"
 
 #: page.cpp:21
 msgid "Save and Continue"
-msgstr "Enregirstrer et continuer"
+msgstr "Enregistrer et continuer"
 
 #: page.cpp:22
 msgid "Preview"
@@ -100,7 +100,7 @@ msgstr "Aperçu"
 
 #: page.cpp:32
 msgid "Disable editing by visitors"
-msgstr "Empêche l'édition d'articles par les personnes non-enregistrées"
+msgstr "Empêcher l'édition d'articles par les personnes non-enregistrées"
 
 #: page.cpp:33
 msgid "Please Login"
@@ -207,7 +207,7 @@ msgstr "Retourner à la page"
 
 #: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:68
 msgid "Edit this version (rollback)"
-msgstr "Modifier cette version (revenir en arrière)""
+msgstr "Modifier cette version (revenir en arrière)"
 
 #: /home/artik/Projects/cppcms/wikipp/templates/page.tmpl:73
 msgid "(version {1,num}, from {2,dt=s})"
