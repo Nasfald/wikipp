@@ -19,7 +19,7 @@
 			"ru" : "ru_RU.UTF-8" ,
 			"pl" : "pl_PL.UTF-8"
 		},
-
+	    "language_default" : ""
 		//
 		// Setup connection string for DB
 		//
