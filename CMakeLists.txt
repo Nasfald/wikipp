@@ -101,7 +101,7 @@ target_link_libraries(wikipp ${BOOSTER} ${CPPCMS} ${CPPDB} ${DISCOUNT})
 #  Localization
 
 
-set(LOCALES he ru pl)
+set(LOCALES he ru pl fr)
 
 set(MO_FILES)
 set(UPDATE_PO_LIST)

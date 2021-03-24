@@ -24,6 +24,7 @@ wiki::wiki(cppcms::service &srv) :
 	for(cppcms::json::object::const_iterator p=langs.begin();p!=langs.end();++p) {
 		lang_map[p->first]=p->second.str();
 	}
+	this->language_default = settings().at("wikipp.language_default").str();
 }
 
 std::string wiki::root(std::string l)
@@ -41,7 +42,8 @@ void wiki::main(std::string url)
 	if(booster::regex_match(url,res,lang_regex)) {
 		std::map<std::string,std::string>::const_iterator p = lang_map.find(std::string(res[1]));
 		if(p==lang_map.end()) {
-			page.redirect();
+			locale_name = this->language_default ;
+			page.redirect( this->language_default );
 		}
 		else {
 			locale_name = p->first;
@@ -51,7 +53,7 @@ void wiki::main(std::string url)
 		}
 	}
 	else
-		page.redirect();
+		page.redirect( this->language_default );
 }
 
 

@@ -31,7 +31,8 @@ public:
 	apps::options options;
 	apps::users users;
 	apps::index index;
-
+	std::string language_default;
+  
 	std::string root(std::string locale_name="");
 	bool set_locale(std::string);
 	void run(std::string lang,std::string url);
