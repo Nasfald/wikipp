@@ -179,7 +179,7 @@ msgid ""
 "Template design based on <a href=\"http://ContentedDesigns.com\">Contented "
 "Designs</a>"
 msgstr ""
-"Nodèles des concept artistique basée sur <a href=\"http://ContentedDesigns.com\">Contented "
+"Modèles des concept artistique basée sur <a href=\"http://ContentedDesigns.com\">Contented "
 "Designs</a>"
 
 #: /home/artik/Projects/cppcms/wikipp/templates/main.tmpl:99
